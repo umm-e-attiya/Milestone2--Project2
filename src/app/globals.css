@@ -2,20 +2,792 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+#mainheading{
+          background-color: #35b1a2;
+          display: flex;
+          justify-content: space-between;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+#heading{
+         font-size: xx-large;
+        font-weight: bold;
+}
+#navbar{
+        display: flex;
+        gap:20px;
+        font-size: 30px;
+        margin-right: 10px;
+        
+      
+}
+
+#navbar li :hover{
+             text-decoration: underline;
+             color: black;
+}
+
+#mainpage{
+      display: flex;
+      justify-content: space-between;
+}
+#image1{
+       width: 500px;
+       margin-top:120px;
+       margin-left:100px;
+}
+
+#paragraph1{
+         margin-top: 250px;
+          width: 800px;
+          margin-right: 50px;
+}
+
+#mainabout{
+        display: flex;
+        justify-content: space-between;
+}
+
+#paragraph2{
+            
+  margin-top: 200px;
+  margin-left: 20px;
+  width: 800px;
+         
+}
+
+#a, #b{
+      margin-top: 30px;
+} 
+
+#image2
+{
+  margin-top: 150px;
+  margin-right: 20px;
+  width: 500px;
+  height: 150px;
+  
+}
+
+#projectheading{
+          text-align: center;
+          font-weight: bold;
+          font-size: 80px;
+          margin-top: 40px;
+}
+
+#mainimage{
+        display: flex;
+        justify-content: space-between;
+}
+
+#image3{
+       width: 500px;
+       height: 100px;
+       text-align: center;
+       font-size: 20px;
+       margin-top: 60px;
+       margin-left: 16px;
+}
+
+#image4{
+        width: 500px;
+        height: 100px;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 16px;
+
+}
+
+#image5{
+        width: 500px;
+        height: 100px;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 16px;
+}
+
+#mainskills{
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30px;
+}
+
+
+
+#first{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+       
+}
+
+#imagesection1{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 50px;
+       
+}
+
+#image6{
+        width: 800px;
+       margin-left: 40px;
+       font-size: 50px;
+       font-weight: bold;
+
+        
+}
+#image6,h1{
+        margin-left: 40px;
+        margin-top: 20px;
+}
+
+
+
+
+
+#image7{
+       width: 800px;
+       font-size: 50px;
+       font-weight: bold;
+       margin-left:300px;
+       
+      
+}
+
+#image8{
+        width: 800px;
+        font-size: 50px;
+       font-weight: bold;
+       margin-left: 150px;
+}
+
+#mainskills2{
+        margin-top: 50px;
+          font-size: 50px;
+          font-weight: bold;
+          text-align: center;
+}
+#imagesection2{
+        display: flex;
+}
+
+#image9{
+        width: 800px;
+        margin-top: 50px;
+       margin-left: 80px;
+       font-size: 50px;
+       font-weight: bold;
+
+        
+}
+
+#image10{
+        width: 800px;
+        margin-top: 50px;
+       font-size: 50px;
+       font-weight: bold;
+       align-items: center;
+
+        
+}
+
+
+#maincontact{
+           font-size: 50px;
+           font-weight: bold;
+           text-align: center;
+           margin-top: 40px;
+}
+
+#contactsection{
+          background-color: cadetblue;
+          color: white;
+          margin: 100px;
+         padding: 60px;
+         text-align: center;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+        #mainheading{
+               
+                display: flex;
+                flex-direction: space-between;
+                
+      }
+      
+      #heading{
+               font-size:25px;
+              font-weight: bold;
+              
+      }
+      #navbar{
+              display: flex;
+              gap:10px;
+              font-size: 15px;
+              padding-top: 30px;
+           
+              
+            
+      }
+      
+      #navbar li :hover{
+                   text-decoration: underline;
+                   color: black;
+      }
+      
+
+      #mainpage{
+        display: flex;
+        flex-direction: column;
   }
+  #image1{
+         width: 400px;
+         margin-top:120px;
+         margin-left:50px;
+  }
+  
+  #paragraph1{
+           margin-top: 50px;
+           overflow: hidden;
+            width: 400px;
+            margin-left: 60px;
+            font-size: 15px;
+  }
+
+  #mainabout{
+        display: flex;
+        flex-direction: column;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+#paragraph2{
+            
+  margin-top: 90px;
+  margin-left: 20px;
+  width: 400px;
+         
 }
+
+#a, #b{
+      margin-top: 30px;
+} 
+
+#image2
+{
+  margin-top: 80px;
+  margin-left: 90px;
+  width: 300px;
+  height: 100px;
+  
+}
+#projectheading{
+        text-align: center;
+        font-weight: bold;
+        font-size: 80px;
+        margin-left: 3px;
+        margin-top: 40px;
+}
+
+#mainimage{
+      display: flex;
+      flex-direction: column;
+}
+
+#image3{
+     width: 400px;
+     height: 100px;
+     text-align: center;
+     font-size: 15px;
+     margin-top: 60px;
+     margin-left: 80px;
+}
+
+#image4{
+      width: 400px;
+      height: 100px;
+      text-align: center;
+      font-size: 15px;
+      margin-top: 150px;
+      margin-left: 80px;
+
+}
+
+#image5{
+      width: 400px;
+      height: 100px;
+      text-align: center;
+      font-size: 15px;
+      margin-top: 150px;
+      margin-left: 80px;
+}
+
+#mainskills{
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+        margin-right:10% ;
+}
+
+
+
+#first{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10%;
+   
+}
+
+#imagesection1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100%;
+   
+}
+
+#image6{
+    width: 800px;
+   margin-left: 800px;
+   font-size: 50px;
+   font-weight: bold;
+
+    
+}
+#image6,h1{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+
+
+
+#image7{
+   width: 800px;
+   font-size: 50px;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-left:100px;
+   
+  
+}
+
+#image8{
+    width: 800px;
+    font-size: 50px;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+
+#mainskills2{
+    margin-top: 50px;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+      margin-left: 5%;
+}
+#imagesection2{
+    display: flex;
+    flex-direction: column;
+}
+
+#image9{
+    width: 800px;
+    margin-top: 50px;
+   margin-left: 200px;
+   font-size: 50px;
+   font-weight: bold;
+
+    
+}
+
+#image10{
+    width: 800px;
+    margin-top: 50px;
+   font-size: 50px;
+   font-weight: bold;
+   text-align: 40px;
+   margin-left: 200px;
+}
+}
+
+@media (min-width: 600px) {
+        #mainheading{
+                
+                display: flex;
+                justify-content: space-between;
+      }
+      
+      #heading{
+               font-size: larger;
+              font-weight: bold;
+      }
+      #navbar{
+              display: flex;
+              gap:20px;
+              font-size: 15px;
+              padding-top: 25px;
+              margin-right: 10px;
+              
+            
+      }
+      
+      #navbar li :hover{
+                   text-decoration: underline;
+                   color: black;
+      }
+
+      #mainpage{
+        display: flex;
+        flex-direction: column;
+  }
+  #image1{
+         width: 500px;
+         margin-top:120px;
+         margin-left:50px;
+  }
+  
+  #paragraph1{
+           margin-top: 50px;
+            width: 400px;
+            margin-left: 80px;
+  }
+
+  #mainimage{
+        display: flex;
+        flex-direction: column;
+}
+
+#image3{
+       width: 400px;
+       height: 100px;
+       text-align: center;
+       font-size: 15px;
+       margin-top: 100px;
+       margin-left: 150px;
+}
+
+#image4{
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 180px;
+        margin-left: 150px;
+
+}
+
+#image5{
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 180px;
+        margin-left: 150px;
+}
+
+#imagesection1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 80%;
+       
+}
+
+#image6{
+        width: 800px;
+       margin-left: 150px;
+       font-size: 50px;
+       font-weight: bold;
+
+        
+}
+#image6,h1{
+        margin-left: 40px;
+        margin-top: 20px;
+}
+
+
+
+
+
+#image7{
+       width: 800px;
+       font-size: 50px;
+       font-weight: bold;
+       margin-left:100px;
+       margin-top: 30px;
+       
+      
+}
+
+#image8{
+        width: 800px;
+        font-size: 50px;
+       font-weight: bold;
+       margin-left: 60;
+       margin-top: 30px;
+}
+
+#mainskills2{
+        margin-top: 50px;
+          font-size: 50px;
+          font-weight: bold;
+          text-align: center;
+}
+#imagesection2{
+        display: flex;
+        flex-direction: column;
+}
+
+#image9{
+        width: 800px;
+        margin-top: 50px;
+       margin-left: 250px;
+       font-size: 50px;
+       font-weight: bold;
+
+        
+}
+
+#image10{
+        width: 800px;
+        margin-top: 50px;
+        margin-left: 250px;
+       font-size: 50px;
+       font-weight: bold;
+       align-items: center;
+
+        
+}
+}
+
+@media (min-width: 1000px) {
+        #mainheading{
+                background-color: #35b1a2;
+                display: flex;
+                justify-content: space-between;
+      }
+      
+      #heading{
+               font-size: xx-large;
+              font-weight: bold;
+      }
+      #navbar{
+              display: flex;
+              gap:20px;
+              font-size: 30px;
+              margin-right: 10px;
+              
+            
+      }
+      
+      #navbar li :hover{
+                   text-decoration: underline;
+                   color: black;
+      }
+      
+      #mainpage{
+            display: flex;
+            justify-content: space-between;
+      }
+      #image1{
+             width: 500px;
+             margin-top:120px;
+             margin-left:100px;
+      }
+      
+      #paragraph1{
+               margin-top: 250px;
+                width: 800px;
+                margin-right: 50px;
+      }
+      
+      #mainabout{
+              display: flex;
+              justify-content: space-between;
+      }
+      
+      #paragraph2{
+                  
+        margin-top: 200px;
+        margin-left: 20px;
+        width: 800px;
+               
+      }
+      
+      #a, #b{
+            margin-top: 30px;
+      } 
+      
+      #image2
+      {
+        margin-top: 150px;
+        margin-right: 20px;
+        width: 500px;
+        height: 150px;
+        
+      }
+      
+      #projectheading{
+                text-align: center;
+                font-weight: bold;
+                font-size: 80px;
+                margin-top: 40px;
+      }
+      
+      #mainimage{
+              display: flex;
+              justify-content: space-between;
+      }
+      
+      #image3{
+             width: 500px;
+             height: 100px;
+             text-align: center;
+             font-size: 20px;
+             margin-top: 60px;
+             margin-left: 16px;
+      }
+      
+      #image4{
+              width: 500px;
+              height: 100px;
+              text-align: center;
+              font-size: 20px;
+              margin-top: 60px;
+              margin-left: 16px;
+      
+      }
+      
+      #image5{
+              width: 500px;
+              height: 100px;
+              text-align: center;
+              font-size: 20px;
+              margin-top: 60px;
+              margin-left: 16px;
+      }
+      
+      #mainskills{
+                  font-size: 50px;
+                  font-weight: bold;
+                  text-align: center;
+                  margin-top: 30px;
+      }
+      
+      
+      
+      #first{
+              font-size: 50px;
+              font-weight: bold;
+              text-align: center;
+              margin-top: 20px;
+             
+      }
+      
+      #imagesection1{
+              display: flex;
+              align-items: center;
+              margin-top: 30px;
+              margin-left: 50px;
+             
+      }
+      
+      #image6{
+              width: 800px;
+             margin-left: 40px;
+             font-size: 50px;
+             font-weight: bold;
+      
+              
+      }
+      #image6,h1{
+              margin-left: 40px;
+              margin-top: 20px;
+      }
+      
+      
+      
+      
+      
+      #image7{
+             width: 800px;
+             font-size: 50px;
+             font-weight: bold;
+             margin-left:300px;
+             
+            
+      }
+      
+      #image8{
+              width: 800px;
+              font-size: 50px;
+             font-weight: bold;
+             margin-left: 150px;
+      }
+      
+      #mainskills2{
+              margin-top: 50px;
+                font-size: 50px;
+                font-weight: bold;
+                text-align: center;
+      }
+      #imagesection2{
+              display: flex;
+      }
+      
+      #image9{
+              width: 800px;
+              margin-top: 50px;
+             margin-left: 80px;
+             font-size: 50px;
+             font-weight: bold;
+      
+              
+      }
+      
+      #image10{
+              width: 800px;
+              margin-top: 50px;
+             font-size: 50px;
+             font-weight: bold;
+             align-items: center;
+      
+              
+      }
+      
+      
+      #maincontact{
+                 font-size: 50px;
+                 font-weight: bold;
+                 text-align: center;
+                 margin-top: 40px;
+      }
+      
+      #contactsection{
+                background-color: cadetblue;
+                color: white;
+                margin: 100px;
+               padding: 60px;
+               text-align: center;
+      }
+      
+      
+
+}
+
