@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Navbar from "./Components/page";
 import profilepicture from "../../public/profilepicture.webp"
 
 export default function Home() {
