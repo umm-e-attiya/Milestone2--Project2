@@ -226,16 +226,17 @@
                 
       }
       
-      #heading{
-               font-size:20px;
+      #heading{ 
+             padding-right: 5px;
+               font-size:15px;
               font-weight: bold;
               
       }
       #navbar{
-        background-color: #35b1a2;
+        
               display: flex;
               justify-content: space-between;
-              margin-left: 20px;
+              padding-left: 30px;
               gap:20px;
               font-size: 10px;
               padding-top: 30px;
@@ -257,14 +258,15 @@
   #image1{
          width: 300px;
          margin-top:120px;
-         margin-left:10px;
+         margin-right: 20px;
+         
+        
   }
   
   #paragraph1{
            margin-top: 50px;
            
-            width: 400px;
-            margin-left: 30px;
+            width: 300px;
             font-size: 15px;
   }
 
@@ -276,8 +278,8 @@
 #paragraph2{
             
   margin-top: 90px;
-  margin-left: 20px;
-  width: 400px;
+ 
+  width: 300px;
          
 }
 
@@ -288,7 +290,7 @@
 #image2
 {
   margin-top: 80px;
-  margin-left: 90px;
+ 
   width: 300px;
   height: 100px;
   
@@ -307,31 +309,31 @@
 }
 
 #image3{
-     width: 400px;
+     width: 300px;
      height: 100px;
      text-align: center;
      font-size: 15px;
      margin-top: 60px;
-     margin-left: 20px;
+     
 }
 
 #image4{
-      width: 400px;
+      width: 300px;
       height: 100px;
       text-align: center;
       font-size: 15px;
       margin-top: 150px;
-      margin-left: 20px;
+     
 
 }
 
 #image5{
-      width: 400px;
+      width: 300px;
       height: 100px;
       text-align: center;
       font-size: 15px;
       margin-top: 150px;
-      margin-left: 20px;
+      
 }
 
 #mainskills{
@@ -349,30 +351,26 @@
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
-    margin-right: 10%;
+   
    
 }
 
 #imagesection1{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    margin-left:  109%;
+    margin-left: 10px;
+        margin-top: 30px;
+   
    
 }
 
 #image6{
-    width: 800px;
-   margin-left: 100px;
+    width: 300px;
+   margin-left: 20px;
    font-size: 50px;
    font-weight: bold;
 
     
-}
-#image6,h1{
-    margin-left: 40px;
-    margin-top: 20px;
 }
 
 
@@ -380,21 +378,23 @@
 
 
 #image7{
-   width: 800px;
+   width: 300px;
+   margin-left: 20px;
    font-size: 50px;
    font-weight: bold;
    margin-top: 20px;
-   margin-left:100px;
+   
    
   
 }
 
 #image8{
-    width: 800px;
+    width: 300px;
     font-size: 50px;
    font-weight: bold;
+   margin-left: 20px;
    margin-top: 20px;
-   margin-left: 100px;
+  
 }
 
 #mainskills2{
@@ -402,7 +402,7 @@
       font-size: 50px;
       font-weight: bold;
       text-align: center;
-      margin-left: 5%;
+     
 }
 #imagesection2{
     display: flex;
@@ -410,35 +410,35 @@
 }
 
 #image9{
-    width: 800px;
+    width: 300px;
     margin-top: 50px;
-   margin-left: 40%;
-   font-size: 50px;
+     font-size: 50px;
    font-weight: bold;
+   margin-left: 20px;
 
     
 }
 
 #image10{
-    width: 800px;
+    width: 300px;
     margin-top: 50px;
    font-size: 50px;
    font-weight: bold;
-   text-align: 40px;
-   margin-left: 30%;
+   margin-left: 20px;
+  
+
 }
 
 #contactsection{
         background-color: cadetblue;
         color: white;
-        margin: 100px;
-       padding: 10px;
-       font-size: 15px;
-       text-align: center;
-}
+       width: 300px;
+      margin-left: 10px;       
+       font-size: 13px;
+     
 
 }
-
+}
 @media (min-width: 600px) {
         #mainheading{
                 
