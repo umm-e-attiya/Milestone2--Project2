@@ -34,7 +34,7 @@
 #image1{
        width: 500px;
        margin-top:120px;
-       margin-left:100px;
+       margin-left:20px;
 }
 
 #paragraph1{
@@ -221,19 +221,23 @@
         #mainheading{
                
                 display: flex;
-                flex-direction: space-between;
+               
+                
                 
       }
       
       #heading{
-               font-size:25px;
+               font-size:20px;
               font-weight: bold;
               
       }
       #navbar{
+        background-color: #35b1a2;
               display: flex;
-              gap:10px;
-              font-size: 15px;
+              justify-content: space-between;
+              margin-left: 20px;
+              gap:20px;
+              font-size: 10px;
               padding-top: 30px;
            
               
@@ -251,16 +255,16 @@
         flex-direction: column;
   }
   #image1{
-         width: 400px;
+         width: 300px;
          margin-top:120px;
-         margin-left:50px;
+         margin-left:10px;
   }
   
   #paragraph1{
            margin-top: 50px;
-           overflow: hidden;
+           
             width: 400px;
-            margin-left: 60px;
+            margin-left: 30px;
             font-size: 15px;
   }
 
@@ -308,7 +312,7 @@
      text-align: center;
      font-size: 15px;
      margin-top: 60px;
-     margin-left: 80px;
+     margin-left: 20px;
 }
 
 #image4{
@@ -317,7 +321,7 @@
       text-align: center;
       font-size: 15px;
       margin-top: 150px;
-      margin-left: 80px;
+      margin-left: 20px;
 
 }
 
@@ -327,7 +331,7 @@
       text-align: center;
       font-size: 15px;
       margin-top: 150px;
-      margin-left: 80px;
+      margin-left: 20px;
 }
 
 #mainskills{
@@ -354,13 +358,13 @@
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    margin-left: 100%;
+    margin-left:  109%;
    
 }
 
 #image6{
     width: 800px;
-   margin-left: 800px;
+   margin-left: 100px;
    font-size: 50px;
    font-weight: bold;
 
@@ -408,7 +412,7 @@
 #image9{
     width: 800px;
     margin-top: 50px;
-   margin-left: 200px;
+   margin-left: 40%;
    font-size: 50px;
    font-weight: bold;
 
@@ -421,8 +425,18 @@
    font-size: 50px;
    font-weight: bold;
    text-align: 40px;
-   margin-left: 200px;
+   margin-left: 30%;
 }
+
+#contactsection{
+        background-color: cadetblue;
+        color: white;
+        margin: 100px;
+       padding: 10px;
+       font-size: 15px;
+       text-align: center;
+}
+
 }
 
 @media (min-width: 600px) {
@@ -430,18 +444,22 @@
                 
                 display: flex;
                 justify-content: space-between;
+                padding: 30px;
       }
       
       #heading{
-               font-size: larger;
+               font-size: 20px;
               font-weight: bold;
+             
       }
       #navbar{
+        background-color: #35b1a2;
               display: flex;
               gap:20px;
-              font-size: 15px;
-              padding-top: 25px;
+              font-size: 20px;
+              padding-top: 20px;
               margin-right: 10px;
+              margin-left: 20px;
               
             
       }
@@ -453,18 +471,21 @@
 
       #mainpage{
         display: flex;
-       
+        display: column;
+        margin-right: 30px;
   }
   #image1{
-         width: 500px;
-         margin-top:120px;
-         margin-left:50px;
+         width: 300px;
+         align-items: center;
+         margin-right: 90px
+         
+         
   }
   
   #paragraph1{
            margin-top: 170px;
             width: 400px;
-            margin-left: 80px;
+            margin-left: 40px;
   }
 
   #mainimage{
